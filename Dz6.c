@@ -3,7 +3,7 @@
 #include <locale.h>
 
 int main()
-
+//вариант 25
 {
 	setlocale(LC_CTYPE, "RUS");
 
