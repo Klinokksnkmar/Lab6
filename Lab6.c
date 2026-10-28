@@ -53,7 +53,7 @@ void zd2()
 	printf("Введите x: ");
 	scanf("%lf", &x);
 
-	printf("F(%.1lf)=%.4lf\n", x, (x >= 0 && x <= 1) ? pow(x, 2.0) : (pow(x, 2.0) - sin(PI * pow(x, 2.0))));//тернарная операция в функции printf
+	printf("F(%.1lf)=%.4lf\n", x, (x >= 0 && x <= 1) ? (pow(x, 2.0)-x) : (pow(x, 2.0) - sin(PI * pow(x, 2.0))));//тернарная операция в функции printf
 }
 
 
